@@ -18,7 +18,8 @@
     "paths": {
       "@c/*": ["./src/components/*"],
       "@utils/*": ["./src/utils/*"]
-    }
+    },
+    "typeRoots": ["node_modules/yup"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
